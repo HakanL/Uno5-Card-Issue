@@ -1,7 +1,6 @@
 using System;
 using GLib;
 using Uno.UI.Runtime.Skia;
-using Uno.UI.Runtime.Skia.Gtk;
 
 namespace UnoApp5.Skia.Gtk
 {
