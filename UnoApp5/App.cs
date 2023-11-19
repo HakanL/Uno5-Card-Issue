@@ -1,3 +1,5 @@
+using Uno.UI;
+
 namespace UnoApp5
 {
     public class App : Application
@@ -12,6 +14,9 @@ namespace UnoApp5
             MainWindow = Microsoft.UI.Xaml.Window.Current;
 #endif
 
+#if DEBUG
+            MainWindow.EnableHotReload();
+#endif
 
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active

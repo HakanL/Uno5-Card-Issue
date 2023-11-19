@@ -10,11 +10,11 @@
 	<ItemGroup>
 		<PackageReference Include="Uno.Dsp.Tasks" />
 		<PackageReference Include="Uno.WinUI" />
+		<PackageReference Include="Uno.WinUI.DevServer" />
 		<PackageReference Include="Uno.WinUI.Lottie" />
 		<PackageReference Include="Uno.Resizetizer" />
 		<PackageReference Include="Uno.Material.WinUI" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" />
-		<PackageReference Include="Uno.Toolkit.WinUI" />
 		<PackageReference Include="Uno.Toolkit.WinUI.Material" />
 	</ItemGroup>
 
